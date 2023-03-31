@@ -9,34 +9,40 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="">Startseite</a>
+                        <a href="./">Startseite</a>
                     </li>
                     <li>
-                        <a href="">Projekte</a>
+                        <a href="./projekte.html">Projekte</a>
                     </li>
                     <li>
-                        <a href="">Über mich</a>
+                        <a href="./ueber-mich.html">Über mich</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <h1>Jonas Hauptmann</h1>
-            <img id="portrait" src="images/portrait.jpg" alt="Portrait von Jonas Hauptmann"/>
+            <div class="centered">
+                <h1>Jonas Hauptmann</h1>
+                <img id="portrait" src="images/portrait.jpg" alt="Portrait von Jonas Hauptmann"/>
+            </div>
             <div class="cards-container">
-                <div class="card">
-                    <h3>Projekte</h3>
-                    <p>Hier kommen sie zu einer Übersicht meiner letzten Projekte</p>
-                </div>
-                <div class="card">
-                    <h3>Über mich</h3>
-                    <p>Hier können sie mehr über mich erfahren</p>
-                </div>
+                <a href="./projekte.html">
+                    <div class="card">
+                        <h3>Projekte</h3>
+                        <p>Hier kommen sie zu einer Übersicht meiner letzten Projekte</p>
+                    </div>
+                </a>
+                <a href="./ueber-mich.html">
+                    <div class="card">
+                        <h3>Über mich</h3>
+                        <p>Hier können sie mehr über mich erfahren</p>
+                    </div>
+                </a>
             </div>
         </main>
         <footer>
-            <p>Besucher:</p>
-            <p>Impressum</p>
+            <div>Besucher:</div>
+            <div>Impressum</div>
         </footer>
         <script src="index.js"></script>
     </body>
