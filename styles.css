@@ -1,0 +1,81 @@
+body {
+    border: 1px solid red;
+    background-color: white;
+    color: black;
+}
+
+header {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+}
+
+header > nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+    transition: 200ms all ease-in;
+
+}
+
+header > nav > ul > li > a:visited {
+    color: inherit;
+}
+
+header > nav > ul > li > a:hover {
+    color: blue;
+    font-size: 1.4em;
+    transition: 200ms all ease-out;
+}
+
+header > nav > ul > li {
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header > nav {
+    flex-grow: 1;
+}
+
+main > h1 {
+
+}
+
+#portrait {
+
+}
+
+.cards-container {
+
+}
+
+.cards-container > .card {
+
+}
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards-container > h1 {
+    
+}
